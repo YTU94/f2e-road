@@ -1,0 +1,1 @@
+cd /www/wwwroot/f2e-road/ && git pull origin master && npm run build
