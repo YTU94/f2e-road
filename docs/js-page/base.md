@@ -5,5 +5,3 @@
 ### 类型转换
 
 ![An image](../assets/imgs/hero.jpg)
-![An image](../assets/imgs/hero.jpg)
-![An image](../assets/imgs/hero.jpg)

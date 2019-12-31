@@ -16,6 +16,10 @@ module.exports = {
                     {
                         title: "js基础",
                         path: "/js-page/base.html"
+                    },
+                    {
+                        title: "js——原型篇",
+                        path: "/js-page/prototype.html"
                     }
                 ]
             },
