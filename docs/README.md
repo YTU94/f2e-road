@@ -4,7 +4,7 @@ sidebar: auto
 heroImage: /hero.jpg
 heroText: 前端之道
 tagline: 
-actionText: 开始 →
+actionText: 开始 go→
 actionLink: /guide/
 features:
     - title: 简洁至上
