@@ -26,6 +26,25 @@ module.exports = {
             {
                 title: "计算机基础",
                 path: "/page/page-a/"
+            },
+            {
+                title: "vue篇",
+                path: "/page/page-vue/",
+                collapsable: false, // 来让一个组永远都是展开状态
+                sidebarDepth: 1,
+
+            },
+            {
+                title: "计算机网络基础",
+                path: "/page/page-network/"
+            },
+            {
+                title: "算法和数据结构",
+                path: "/page/page-algorithom/"
+            },
+            {
+                title: "前段工程化",
+                path: "/page/page-ngineering/"
             }
         ],
         nav: [
