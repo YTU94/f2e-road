@@ -24,28 +24,40 @@ module.exports = {
                 ]
             },
             {
-                title: "计算机基础",
-                path: "/page/page-a/"
+                title: "计算机网络基础",
+                path: "/page/page-network/",
+                children: [
+                    {
+                        title: "网络知识基础",
+                        path: "/page/page-network/network-base.md"
+                    }
+                ]
             },
             {
                 title: "vue篇",
                 path: "/page/page-vue/",
-                collapsable: false, // 来让一个组永远都是展开状态
-                sidebarDepth: 1,
+                // collapsable: false, // 来让一个组永远都是展开状态
+                // sidebarDepth: 1,
+                children: [
+                    {
+                        title: "文件结构&&Vue构造函数",
+                        path: "/page/page-vue/file-structure.md"
+                    }
+                ]
 
             },
-            {
-                title: "计算机网络基础",
-                path: "/page/page-network/"
-            },
-            {
-                title: "算法和数据结构",
-                path: "/page/page-algorithom/"
-            },
-            {
-                title: "前段工程化",
-                path: "/page/page-ngineering/"
-            }
+            // {
+            //     title: "计算机网络基础",
+            //     path: "/page/page-network/"
+            // },
+            // {
+            //     title: "算法和数据结构",
+            //     path: "/page/page-algorithom/"
+            // },
+            // {
+            //     title: "前段工程化",
+            //     path: "/page/page-ngineering/"
+            // }
         ],
         nav: [
             { text: "介绍", link: "/guide/" },
