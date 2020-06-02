@@ -1,7 +1,6 @@
 module.exports = {
     title: "前端之道",
     description: "Just playing around",
-
     themeConfig: {
         displayAllHeaders: true,
         sidebar: "auto",
@@ -36,8 +35,6 @@ module.exports = {
             {
                 title: "vue篇",
                 path: "/page/page-vue/",
-                // collapsable: false, // 来让一个组永远都是展开状态
-                // sidebarDepth: 1,
                 children: [
                     {
                         title: "文件结构&&Vue构造函数",
@@ -46,10 +43,6 @@ module.exports = {
                 ]
 
             },
-            // {
-            //     title: "计算机网络基础",
-            //     path: "/page/page-network/"
-            // },
             // {
             //     title: "算法和数据结构",
             //     path: "/page/page-algorithom/"
