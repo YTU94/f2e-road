@@ -72,5 +72,6 @@ module.exports = {
             }
         }
     },
+    base: '/',
     plugins: ["@vuepress/back-to-top"]
 }
