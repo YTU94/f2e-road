@@ -39,6 +39,14 @@ module.exports = {
                     {
                         title: "文件结构&&Vue构造函数",
                         path: "/page/page-vue/file-structure.md"
+                    },
+                    {
+                        title: '响应式数据',
+                        path: "/page/page-vue/observer-state"
+                    },
+                    {
+                        title: '响应式',
+                        path: "/page/page-vue/observer"
                     }
                 ]
 
