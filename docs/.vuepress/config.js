@@ -6,22 +6,22 @@ module.exports = {
         sidebar: "auto",
         sidebar: [
             ["/guide/", "介绍"],
-            // {
-            //     title: "JS篇",
-            //     path: "/js-page/",
-            //     collapsable: false, // 来让一个组永远都是展开状态
-            //     sidebarDepth: 1,
-            //     children: [
-            //         {
-            //             title: "js基础",
-            //             path: "/js-page/base.html"
-            //         },
-            //         {
-            //             title: "js——原型篇",
-            //             path: "/js-page/prototype.html"
-            //         }
-            //     ]
-            // },
+            {
+                title: "JS篇",
+                path: "/js-page/",
+                collapsable: false, // 来让一个组永远都是展开状态
+                sidebarDepth: 1,
+                children: [
+                    {
+                        title: "js基础",
+                        path: "/js-page/base.html"
+                    },
+                    {
+                        title: "js——原型篇",
+                        path: "/js-page/prototype.html"
+                    }
+                ]
+            },
             {
                 title: "计算机网络基础",
                 path: "/page/page-network/",
