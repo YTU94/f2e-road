@@ -6,22 +6,22 @@ module.exports = {
         sidebar: "auto",
         sidebar: [
             ["/guide/", "介绍"],
-            {
-                title: "JS篇",
-                path: "/js-page/",
-                collapsable: false, // 来让一个组永远都是展开状态
-                sidebarDepth: 1,
-                children: [
-                    {
-                        title: "js基础",
-                        path: "/js-page/base.html"
-                    },
-                    {
-                        title: "js——原型篇",
-                        path: "/js-page/prototype.html"
-                    }
-                ]
-            },
+            // {
+            //     title: "JS篇",
+            //     path: "/js-page/",
+            //     collapsable: false, // 来让一个组永远都是展开状态
+            //     sidebarDepth: 1,
+            //     children: [
+            //         {
+            //             title: "js基础",
+            //             path: "/js-page/base.html"
+            //         },
+            //         {
+            //             title: "js——原型篇",
+            //             path: "/js-page/prototype.html"
+            //         }
+            //     ]
+            // },
             {
                 title: "计算机网络基础",
                 path: "/page/page-network/",
@@ -41,16 +41,15 @@ module.exports = {
                         path: "/page/page-vue/file-structure.md"
                     },
                     {
-                        title: '响应式数据',
+                        title: "响应式数据",
                         path: "/page/page-vue/observer-state"
                     },
                     {
-                        title: '响应式',
+                        title: "响应式",
                         path: "/page/page-vue/observer"
                     }
                 ]
-
-            },
+            }
             // {
             //     title: "算法和数据结构",
             //     path: "/page/page-algorithom/"
@@ -80,6 +79,9 @@ module.exports = {
             }
         }
     },
-    base: '/',
+    base: "/",
+    markdown: {
+        lineNumbers: true
+    },
     plugins: ["@vuepress/back-to-top"]
 }
