@@ -6,6 +6,21 @@ module.exports = {
         sidebar: "auto",
         sidebar: [
             ["/guide/", "介绍"],
+            
+            {
+                title: "前端基础",
+                path: "/page/page-basis/",
+                children: [
+                    {
+                        title: "html基础",
+                        path: "/page/page-basis/html-basis.md"
+                    },
+                    {
+                        title: "原型",
+                        path: "/page/brower-page/prototype.md"
+                    }
+                ]
+            },
             {
                 title: "计算机网络基础",
                 path: "/page/page-network/",
@@ -23,10 +38,6 @@ module.exports = {
                     {
                         title: "网络知识基础",
                         path: "/page/brower-page/network-request.md"
-                    },
-                    {
-                        title: "原型",
-                        path: "/page/brower-page/prototype.md"
                     },
                     {
                         title: "进程和线程",
