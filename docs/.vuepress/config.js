@@ -7,28 +7,30 @@ module.exports = {
         sidebar: [
             ["/guide/", "介绍"],
             {
-                title: "JS篇",
-                path: "/js-page/",
-                collapsable: false, // 来让一个组永远都是展开状态
-                sidebarDepth: 1,
-                children: [
-                    {
-                        title: "js基础",
-                        path: "/js-page/base.html"
-                    },
-                    {
-                        title: "js——原型篇",
-                        path: "/js-page/prototype.html"
-                    }
-                ]
-            },
-            {
                 title: "计算机网络基础",
                 path: "/page/page-network/",
                 children: [
                     {
                         title: "网络知识基础",
                         path: "/page/page-network/network-base.md"
+                    }
+                ]
+            },
+            {
+                title: "网络基础",
+                path: "/page/brower-page/",
+                children: [
+                    {
+                        title: "网络知识基础",
+                        path: "/page/brower-page/network-request.md"
+                    },
+                    {
+                        title: "原型",
+                        path: "/page/brower-page/prototype.md"
+                    },
+                    {
+                        title: "进程和线程",
+                        path: "/page/brower-page/side.md"
                     }
                 ]
             },
