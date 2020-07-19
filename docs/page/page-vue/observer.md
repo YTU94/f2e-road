@@ -304,3 +304,11 @@ vm._update(vm._render(), hydrating)，
 1.先执行 vm._render() => 返回一个 vnode
 2.再执行 vm_update() => vm.__patch__(vm._vnode, null) (更新新老vnode)
 
+### 过程分析
+1.new Watcher() 开始
+2.执行watcher类的contructor，
+3.构造里面执行 this.get(), 来获取value值，
+4.this.get()中，辅助操作把当前watcher推入 watcher栈，然后主要执行 value = this.getter.call(vm, vm)
+getter是传入的取值function，对于页面的getter就是调用 updateComponent,
+4.updateComponent函数主要执了 vm._update(vm._render(), hydrating)
+5.vm._render() 会生成一个vNode中间会触发data中数据的getter 这时候dep 开始收集依赖
