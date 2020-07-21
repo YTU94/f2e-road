@@ -6,7 +6,7 @@ module.exports = {
         sidebar: "auto",
         sidebar: [
             ["/guide/", "介绍"],
-            
+
             {
                 title: "前端基础",
                 path: "/page/page-basis/",
@@ -17,7 +17,7 @@ module.exports = {
                     },
                     {
                         title: "原型",
-                        path: "/page/brower-page/prototype.md"
+                        path: "/page/page-basis/prototype.md"
                     }
                 ]
             },
