@@ -6,7 +6,6 @@ module.exports = {
         sidebar: "auto",
         sidebar: [
             ["/guide/", "介绍"],
-
             {
                 title: "前端基础",
                 path: "/page/page-basis/",
@@ -16,13 +15,23 @@ module.exports = {
                         path: "/page/page-basis/html-basis.md"
                     },
                     {
-                        title: "原型",
-                        path: "/page/page-basis/prototype.md"
+                        title: "css基础",
+                        path: "/page/page-basis/css-basis.md"
+                    },
+                    {
+                        title: "js",
+                        path: "/page/page-basis/js/",
+                        children: [
+                            {
+                                title: '原型',
+                                path: "/page/page-basis/js/prototype.md"
+                            }
+                        ]
                     }
                 ]
             },
             {
-                title: "计算机网络基础",
+                title: "计算机网络",
                 path: "/page/page-network/",
                 children: [
                     {
@@ -32,16 +41,16 @@ module.exports = {
                 ]
             },
             {
-                title: "网络基础",
-                path: "/page/brower-page/",
+                title: "浏览器",
+                path: "/page/page-brower/",
                 children: [
                     {
                         title: "网络知识基础",
-                        path: "/page/brower-page/network-request.md"
+                        path: "/page/page-brower/network-request.md"
                     },
                     {
                         title: "进程和线程",
-                        path: "/page/brower-page/side.md"
+                        path: "/page/page-brower/side.md"
                     }
                 ]
             },
@@ -62,15 +71,22 @@ module.exports = {
                         path: "/page/page-vue/observer"
                     }
                 ]
+            },
+            {
+                title: "前段工程化",
+                path: "/page/page-ngineering/",
+                children: []
+            },
+            {
+                title: "算法和数据结构",
+                path: "/page/page-algorithm/",
+                children: []
+            },
+            {
+                title: "面试题",
+                path: "/page/page-interview/",
+                children: []
             }
-            // {
-            //     title: "算法和数据结构",
-            //     path: "/page/page-algorithom/"
-            // },
-            // {
-            //     title: "前段工程化",
-            //     path: "/page/page-ngineering/"
-            // }
         ],
         nav: [
             { text: "介绍", link: "/guide/" },
