@@ -9,3 +9,6 @@ width = content
 witdh = content + padding + border
 
 2.BFC(Block Fomating Context): 块级格式化上下文
+
+参考下文 [!http://ytuj.cn/?p=690](http://ytuj.cn/?p=690)
+
